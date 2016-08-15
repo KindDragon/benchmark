@@ -31,6 +31,7 @@ install:
   - if not "%cxx_path%"=="" (set "PATH=%PATH%;%cxx_path%")
 
 build_script:
+  - bla bla bla test error code
   - md _build -Force
   - cd _build
   - echo %configuration%
